@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--css code start-->
+    <style>
+        body{
+            background-image: url("dark-wood.jpg");
+        }
+        .divback{
+            width: 968px;
+            height: 750px;
+            background-color: white;
+            margin-left: 300px;
+        }
+        .headimg{
+            
+            background-image: url("header.jpg");
+            width: 968px;
+            height: 160px;
+        }
+        .dmenu{
+            position: absolute;
+            width: 968px;
+            height: 50px;
+            background-color: darkgray;
+            top: 120px;
+        }
+        .dmenu div{
+            justify-content: flex-start;
+            
+        }
+        .dmenu{
+            display: flex;
+            
+            font-size: 24px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            
+        }
+        .home{
+            color: black;
+            flex: 1;
+        }
+        .classe{
+            flex: 1;
+        }
+        .cat{
+            flex: 1;
+        }
+        .abt{
+            flex: 1;
+        }
+        .cont{
+            flex: 1;
+        }
+    
+        .divbody{
+            
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr; 
+        }
+       .da{
+           margin-top: 30px;
+           margin-left: 20px;
+           
+       }
+       .db{
+           margin-top: 30px;
+           margin-left: 20px;
+       }
+       #jap{
+           margin-left: 5px;
+           color: black;
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 18px;
+       }
+       #jape{
+        font-size: 25px;
+        color: crimson;
+       }
+       #oday{
+           color: black;
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 18px;
+           margin-left: 5px;
+       }
+       #five{
+           color: crimson;
+       }
+
+       .dc{
+           
+           color: crimson;
+           margin-top: 30px;
+           margin-left: 30px;
+       }
+       .dd{
+            margin-top: 40px;
+           margin-left: 20px;
+           
+       }
+       #one{
+           color: crimson;
+       }
+       #sos{
+           font-size: 25px;
+           color: crimson;
+       }
+       .de{
+            margin-top: 30px;
+           margin-left: 10px;
+           border-left: 3px;
+           border-color: firebrick;
+       }
+       #res{
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+       }
+       #yak{
+        margin-left: 10px;
+       }
+       #adr{
+           color:crimson;
+           font-family: 'Times New Roman', Times, serif;
+           margin-top: 80px;
+           margin-left: 50px;
+           font-size: 25px;
+
+       }
+       address{
+           font-size: 19px;
+           margin-left: 50px;
+
+       }
+        .divbottom{
+            position: absolute;
+            width: 968px;
+            height: 50px;
+            background-color: darkgray;
+            bottom: 0px;
+        }
+        p{
+            color: white;
+            font-family: sans-serif;
+            margin-left: 30px;
+        }
+    </style>
+    <!--css code end-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="divback">
+        <div class="headimg">
+            <div class="dmenu">
+                <div class="home">
+                    <a href="">home</a>
+                </div>
+                <div class="classe">
+                    <a href="">classes</a>
+                </div>
+                <div class="cat">
+                    <a href="">catering</a>
+                </div>
+                <div class="abt">
+                    <a href="">about</a>
+                </div>
+                <div class="cont">
+                    <a href="">contact</a>
+                </div>
+            </div>
+        </div>
+            <div class="divbody">
+                <div class="da">
+                  <img src="bok-choi.jpg" alt="">
+                  <figcaption>Bok Choi</figcaption>
+                </div>
+                <div class="db">
+                    <h1 id="jape">Japanese Vegetarian</h1>
+                    <h3 id="five">Five week course in London</h3>
+                    <p id="jap">A five week introduction to traditional<br>
+                         Japanese vegetarian meals, teaching you a <br>
+                         selection of rise and noodle dishes.</p>
+                </div>
+                <div class="dc">
+                    <h1 id="res">Popular Recipes</h1>
+                    <h3 id="yak">Yakitori (grilled chicken)<br><hr width="260">
+                    Tsukune(minced chicken patties)<br><hr width="260">
+                Okonomiyaki(savory pancakes) <br><hr width="260">
+            Mizutaki(chicken stew)</h3><hr width="260">
+                </div>
+                <div class="dd">
+                    <img src="teriyaki.jpg">
+                    <figcaption>Teriyaki</figcaption>
+                </div>
+                <div class="de">
+                   <h1 id="sos">Souces Masterclass</h1>
+                   <h3 id="one">One day workshop</h3>
+                   <p id="oday">An intensive one-day course looking at how<br>
+                to create the most delicious sauces for use in <br>
+            a range of Japanese cookery. </p>
+                </div>
+                <div class="df">
+                    <h1 id="adr">Contact</h1>
+                    <address>
+                        YOKO'S Kitchen <br>
+                        Younus college of Engineering<br>
+                        Pallimukku,<br>
+                        Vadakkevila P O,<br>
+                        Kollam - 691010
+                    </address>
+                </div>
+            </div>
+            <div class="divbottom">
+                <p>
+                &#169 2011 YOKO'S Kitchen
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>
