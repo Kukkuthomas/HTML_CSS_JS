@@ -1,0 +1,38 @@
+
+body{
+    background-color: black;
+}
+#bg{
+    background-color: white;
+    width: 700px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 450px;
+}
+#bor{
+    border: blue solid 2px;
+    width: 500px;
+    height: 90px;
+    margin-left: 100px;
+    position: absolute;
+    top: 237px;
+    
+}
+#txt {
+    cursor: text;
+    font-size: 30px;
+    width: 495px;
+    height: 85px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#list{
+    border: white solid 2px;
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    position: absolute;
+    top: 350px;
+}
+
+
