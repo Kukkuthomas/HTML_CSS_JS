@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .body{
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        .res{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 35px,35px,35px;
+        }
+        .b1{
+            height: 400px;
+            width: 300px;
+            
+            margin-left: 50px;
+            
+        }
+        .b2{
+            height: 400px;
+            width: 300px;
+            margin-left: 50px;
+        }
+        .b3{
+            height: 400px;
+            width: 300px;
+            margin-left: 50px;
+        }
+        .vertical { 
+            border-left: 6px solid black; 
+            height: 200px; 
+            position:absolute; 
+            left: 50%; 
+        } 
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="body">
+        <h1>The bus stops here</h1>
+        
+        <div class="res">
+            <div class="b1">
+                <!--<hr class="vertical">-->
+                <img src="map-ca.png">
+                
+                <h3>San Francisco, CA</h3>
+                <h4>May 1</h4>
+                
+            </div>
+            <div class="b2">
+                <img src="map-tx.png">
+                <h3>Austin, TX</h3>
+                <h4>May 15</h4>
+            </div>
+            <div class="b3">
+                <img src="map-ny.png">
+                <h3>New York, NY</h3>
+                <h4>May 13</h4>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</body>
+</html>
